@@ -1,0 +1,45 @@
+html,
+body {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.drawing-canvas {
+	width: 100%;
+	height: 100%;
+	/*
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	*/
+	background-repeat: repeat;
+
+}
+
+.drawing-controls {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+.drawing-controls button img {
+	width: 16px;
+	height: 16px;
+}
+
+.drawing-controls button,
+.drawing-controls input {
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+
+
+.drawing-controls #currentcolortext {
+	height: auto;
+	font-size: 10px;
+	width: 55px;
+	border: 1px solid black;
+}
